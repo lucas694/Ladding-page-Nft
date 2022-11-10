@@ -1,18 +1,36 @@
 .CardContainer{
-    @apply bg-[#13164D] w-[20em] h-[15em] flex flex-col items-center rounded-[1.5em]
-    shadow-lg shadow-gray-600
+    @apply bg-[#13164D] w-[20em] h-[15em] flex flex-col mt-36 items-center rounded-[1.5em] shadow-lg shadow-gray-600
+    sm:w-[20em] sm:h-[15em] sm:flex sm:flex-col sm:items-center sm:mt-36
+    md:w-[20em] md:h-[15em] md:flex md:flex-col md:items-center md:mt-36
+    lg:w-[20em] lg:h-[15em] lg:flex lg:flex-col lg:items-center mt-0
+    xl:w-[20em] xl:h-[15em] xl:flex xl:flex-col xl:items-center mt-0
 }
 
 .CardFirstSec{
     @apply flex flex-col items-center mt-20
+    sm:flex sm:flex-col sm:items-center sm:mt-20
+    md:flex md:flex-col md:items-center md:mt-20
+    lg:flex lg:flex-col lg:items-center lg:mt-20
+    xl:flex xl:flex-col xl:items-center xl:mt-20
 }
 .CardName{
     @apply text-xl font-semibold text-white tracking-[1.8px] mt-4
+    sm:text-xl sm:font-semibold sm:mt-4
+    md:text-xl md:font-semibold md:mt-4
+    lg:text-xl lg:font-semibold lg:mt-4
+    xl:text-xl xl:font-semibold xl:mt-4
 }
 .CardDesc{
     @apply text-sm font-normal text-white tracking-[1.6px] mt-2 text-center w-[80%]
+    sm:text-sm sm:font-normal sm:mt-2 sm:w-[80%]
+    md:text-sm md:font-normal md:mt-2 md:w-[80%]
+    lg:text-sm lg:font-light lg:mt-2 lg:w-[85%]
+    xl:text-sm xl:font-normal xl:text-white xl:tracking-[1.6px] xl:mt-2 xl:text-center xl:w-[80%]
 }
 .CardImg{
-    @apply w-[10em] h-[10em] rounded-full absolute mt-[-5em] shadow-lg shadow-gray-900
-    brightness-100
+    @apply w-[10em] h-[10em] rounded-full absolute mt-[-5em] shadow-lg shadow-gray-900 brightness-100
+    sm:w-[10em] sm:h-[10em] sm:mt-[-5em]
+    md:w-[10em] md:h-[10em] md:mt-[-5em]
+    lg:w-[10em] lg:h-[10em] lg:mt-[-5em]
+    xl:w-[10em] xl:h-[10em] xl:mt-[-5em]
 }

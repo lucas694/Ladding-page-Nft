@@ -1,9 +1,12 @@
 .App {
-  @apply bg-[#020842] flex flex-col items-center text-white;
+  @apply bg-[#020842] flex flex-col items-center text-white w-full
+  xl:bg-[#020842] xl:flex xl:flex-col xl:items-center xl:text-white;
 }
 .Ellipse-1{
-    @apply absolute top-[10em] right-0 z-0 h-[60em] w-[30em] ;
+    @apply absolute top-[10em] right-0 z-0 h-[60em] w-[30em]
+    xl:absolute xl:top-[10em] xl:right-0 xl:z-0 xl:h-[60em] xl:w-[30em] ;
 }
 .Ellipse-2{
-    @apply absolute top-0 left-0 z-0 ;
+    @apply absolute top-0 left-0 z-0
+    xl:absolute xl:top-0 xl:left-0 xl:z-0 ;
 }

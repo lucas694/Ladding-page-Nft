@@ -1,28 +1,53 @@
 .AnalyticsContainer{
-    @apply flex flex-row mt-28 w-[80%] h-[25em] flex-wrap;
+    @apply flex flex-col mt-0 w-[80%] flex-wrap items-center
+    sm:flex sm:flex-col sm:mt-0 sm:w-[80%] sm:items-center
+    md:flex md:flex-row md:mt-28 md:w-[80%] md:h-[25em] md:flex-wrap
+    xl:flex xl:flex-row xl:mt-28 xl:w-[80%] xl:h-[25em] xl:flex-wrap;
 }
 .AnalyticImg{
     @apply w-[27em] h-[25em]
+    sm:w-[27em] sm:h-[25em]
+    md:w-[27em] md:h-[25em]
+    xl:w-[27em] xl:h-[25em]
 }
 .AnalyticTittle{
     @apply text-base font-bold text-[#74B4B3] mt-10 tracking-[1.6px]
+    sm:text-base sm:font-bold sm:mt-10 sm:tracking-[1.6px]
+    md:text-base md:font-bold md:mt-10 md:tracking-[1.6px]
+    xl:text-base xl:font-bold xl:mt-10 xl:tracking-[1.6px]
 }
 
 .AnalyticText{
     @apply text-5xl font-bold text-white mt-4 tracking-[1.8px]
+    sm:text-5xl sm:font-bold sm:text-white sm:mt-4 sm:tracking-[1.8px]
+    md:text-4xl md:font-bold md:text-white md:mt-4 md:tracking-[1.8px]
+    xl:text-5xl xl:font-bold xl:text-white xl:mt-4 xl:tracking-[1.8px]
 }
 
 .AnalyticContentLeft{
-    @apply flex flex-col items-center w-[50%] h-[100%]
+    @apply flex flex-col items-center w-full h-[100%]
+    sm:flex sm:flex-col sm:items-center sm:w-full sm:h-[100%]
+    md:flex md:flex-col md:items-center md:w-[50%] md:h-[100%]
+    xl:flex xl:flex-col xl:items-center xl:w-[50%] xl:h-[100%]
 }
 
 .AnalyticContentRight{
-    @apply flex flex-col items-start w-[50%] h-[100%]
+    @apply flex flex-col items-start w-full h-[100%]
+    sm:flex sm:flex-col sm:items-start sm:w-full sm:h-[100%]
+    md:flex md:flex-col md:items-start md:w-[50%] md:h-[100%]
+    xl:flex xl:flex-col xl:items-start xl:w-[50%] xl:h-[100%]
 }
 .AnalyticDescript{
     @apply text-base font-semibold text-white mt-6
+    sm:text-base sm:font-semibold sm:text-white sm:mt-6
+    md:text-sm md:font-semibold md:text-white md:mt-6
+    xl:text-base xl:font-semibold xl:text-white xl:mt-6
 }
 
 .AnalyticButton{
     @apply bg-[#655ADF] text-white font-semibold text-sm tracking-[1.8px] rounded-full w-[20em] h-[3.8em] mt-10
+    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
+    sm:text-white sm:font-semibold sm:text-sm sm:tracking-[1.8px] sm:rounded-full sm:w-[20em] sm:h-[3.8em] sm:mt-10
+    md:text-white md:font-semibold md:text-sm md:tracking-[1.8px] md:rounded-full md:w-[17em] md:h-[3.5em] md:mt-10
+    xl:text-white xl:font-semibold xl:text-sm xl:tracking-[1.8px] xl:rounded-full xl:w-[20em] xl:h-[3.8em] xl:mt-10
 }

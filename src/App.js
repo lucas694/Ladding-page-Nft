@@ -8,6 +8,7 @@ import Reference from "./Components/Reference";
 import Analytics from "./Components/Analytics";
 import MobileSec from "./Components/MobileSec";
 import Testimonial from "./Components/Testimonial";
+import GetStarted from "./Components/GetStarted";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Analytics/>
       <MobileSec/>
       <Testimonial/>
+      <GetStarted/>
     </div>
   );
 }

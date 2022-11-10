@@ -2,12 +2,36 @@
     @apply w-full h-16 flex flex-row items-center justify-between border-b border-gray-500
 }
 .TittleHeader{
-    @apply text-slate-300 font-bold text-base ml-4 tracking-[-0.5px] ml-[10%] z-10 ;
+    @apply text-slate-300 font-bold text-base ml-4 tracking-[-0.5px] ml-[10%] z-10
+    xl:text-slate-300 xl:font-bold xl:text-base xl:ml-4 xl:tracking-[-0.5px] xl:ml-[10%] xl:z-10
 }
 
 .Ul-Header{
-    @apply flex flex-row items-center justify-between mr-[10%] ;
+    @apply flex flex-row items-center justify-between mr-[10%] hidden
+    md:flex md:flex-row md:items-center md:justify-between md:mr-[10%] md:block
 }
 .HeaderItem{
-    @apply text-slate-200 font-medium text-sm cursor-pointer mr-12 z-10 ;
+    @apply text-slate-200 font-medium text-sm cursor-pointer mr-12 z-10
+    xl:text-slate-200 xl:font-medium xl:text-sm xl:cursor-pointer xl:mr-12 xl:z-10
+}
+.ButtonHeader{
+    @apply w-[2em] h-[2em] mr-5 cursor-pointer z-10
+    md:hidden
+}
+.Ul-MobileShow{
+    @apply flex items-center flex-col block absolute top-16 w-full p-2 z-20 rounded-b-xl
+    backdrop-blur-sm bg-opacity-50
+    md:hidden
+}
+
+.Ul-MobileHidden {
+    @apply flex items-center flex-col hidden bg-black absolute top-16 w-full p-2 z-20 rounded-b-xl
+    md:hidden
+}
+.HeaderItemMobile{
+    @apply text-slate-200 font-semibold text-sm cursor-pointer z-10 p-2
+    w-full text-center
+}
+.HeaderItemMobile:hover{
+    @apply bg-[#655ADF] text-gray-800 rounded-3xl
 }

@@ -1,16 +1,36 @@
 .TestimonialContainer{
-    @apply flex flex-col items-center mt-28 w-[80%] h-[32em] mb-10
+    @apply flex flex-col items-center mt-28 w-[80%] mb-10
+    sm:flex sm:flex-col sm:items-center sm:mt-28 sm:w-[80%]  sm:mb-10
+    md:flex md:flex-col md:items-center md:mt-16 md:w-[80%]  md:mb-10
+    lg:flex lg:flex-col lg:items-center lg:mt-16 lg:w-[80%]  lg:mb-10
+    xl:flex xl:flex-col xl:items-center xl:mt-28 xl:w-[80%]  xl:mb-10
 }
 .TestimonialFirstSec{
     @apply flex flex-col items-center w-[80%] h-[10em]
+    sm:flex sm:flex-col sm:items-center sm:w-[80%] sm:h-[10em]
+    md:flex md:flex-col md:items-center md:w-[80%] md:h-[10em]
+    lg:flex lg:flex-col lg:items-center lg:w-[80%] lg:h-[10em]
+    xl:flex xl:flex-col xl:items-center xl:w-[80%] xl:h-[10em]
 }
 .TestimonialTittle{
     @apply text-base font-bold text-[#74B4B3] tracking-[1.6px]
+    sm:text-base sm:font-bold
+    md:text-base md:font-bold
+    lg:text-base lg:font-bold
+    xl:text-base xl:font-bold
 }
 .TestimonialText{
-    @apply text-5xl font-bold text-white tracking-[1.8px] mt-6 text-center
+    @apply text-6xl font-bold text-white tracking-[1.1px] mt-6 text-center w-full
+    sm:text-5xl sm:font-bold sm:mt-6 sm:text-center
+    md:text-5xl md:font-bold md:mt-6 md:text-center
+    lg:text-5xl lg:font-bold lg:mt-6 lg:text-center
+    xl:text-5xl xl:font-bold xl:mt-6 xl:text-center
 }
 .TestimonialSecoundSec{
-    @apply flex flex-row h-[22em] w-full mt-32 space-x-14 justify-center
+    @apply flex flex-row w-full mt-[20em] space-y-36 justify-center flex-wrap
+    sm:flex sm:flex-row sm:w-full sm:mt-8 sm:space-x-0 sm:justify-center sm:flex-wrap
+    md:flex md:flex-row md:w-full md:mt-8 md:space-x-4 md:justify-center md:flex-wrap
+    lg:flex lg:flex-row lg:w-full lg:mt-8 lg:space-x-10 lg:justify-center
+    xl:flex xl:flex-row xl:w-full xl:mt-8 xl:space-x-14 xl:justify-center
 }
 

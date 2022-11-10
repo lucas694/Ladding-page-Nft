@@ -1,11 +1,14 @@
 .ReferenceContainer{
-    @apply flex flex-col w-[80%] mt-16 ;
+    @apply flex flex-col w-[80%] mt-16 hidden
+    sm:block
+    xl:flex xl:flex-col xl:w-[80%] xl:mt-16
 }
 .ReferenceContent{
-    @apply flex w-full bg-[#13164D] rounded-xl;
+    @apply flex w-full bg-[#13164D] rounded-xl
+    xl:flex xl:w-full xl:rounded-xl
 }
 .ReferenceImgs{
-    @apply flex flex-row items-center pb-4 w-full justify-center space-x-[150px]
+    @apply flex flex-row items-center pb-4 w-full justify-center space-x-[5px]
     sm:space-x-[5%]
     lg:space-x-[15%]
     xl:space-x-[20%]
