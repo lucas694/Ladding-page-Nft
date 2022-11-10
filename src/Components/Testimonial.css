@@ -1,0 +1,16 @@
+.TestimonialContainer{
+    @apply flex flex-col items-center mt-28 w-[80%] h-[32em] mb-10
+}
+.TestimonialFirstSec{
+    @apply flex flex-col items-center w-[80%] h-[10em]
+}
+.TestimonialTittle{
+    @apply text-base font-bold text-[#74B4B3] tracking-[1.6px]
+}
+.TestimonialText{
+    @apply text-5xl font-bold text-white tracking-[1.8px] mt-6 text-center
+}
+.TestimonialSecoundSec{
+    @apply flex flex-row h-[22em] w-full mt-32 space-x-14 justify-center
+}
+

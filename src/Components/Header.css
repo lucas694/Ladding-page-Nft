@@ -1,0 +1,13 @@
+.HeaderContainer{
+    @apply w-full h-16 flex flex-row items-center justify-between border-b border-gray-500
+}
+.TittleHeader{
+    @apply text-slate-300 font-bold text-base ml-4 tracking-[-0.5px] ml-[10%] z-10 ;
+}
+
+.Ul-Header{
+    @apply flex flex-row items-center justify-between mr-[10%] ;
+}
+.HeaderItem{
+    @apply text-slate-200 font-medium text-sm cursor-pointer mr-12 z-10 ;
+}

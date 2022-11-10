@@ -1,0 +1,18 @@
+.CardContainer{
+    @apply bg-[#13164D] w-[20em] h-[15em] flex flex-col items-center rounded-[1.5em]
+    shadow-lg shadow-gray-600
+}
+
+.CardFirstSec{
+    @apply flex flex-col items-center mt-20
+}
+.CardName{
+    @apply text-xl font-semibold text-white tracking-[1.8px] mt-4
+}
+.CardDesc{
+    @apply text-sm font-normal text-white tracking-[1.6px] mt-2 text-center w-[80%]
+}
+.CardImg{
+    @apply w-[10em] h-[10em] rounded-full absolute mt-[-5em] shadow-lg shadow-gray-900
+    brightness-100
+}

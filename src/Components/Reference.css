@@ -1,0 +1,35 @@
+.ReferenceContainer{
+    @apply flex flex-col w-[80%] mt-16 ;
+}
+.ReferenceContent{
+    @apply flex w-full bg-[#13164D] rounded-xl;
+}
+.ReferenceImgs{
+    @apply flex flex-row items-center pb-4 w-full justify-center space-x-[150px]
+    sm:space-x-[5%]
+    lg:space-x-[15%]
+    xl:space-x-[20%]
+}
+.ReferenceTittle{
+    @apply text-base font-semibold text-white ml-4 mb-2 tracking-[1.5px]
+}
+.ReferenceImg1{
+    @apply w-[150px] h-[50px] ml-4 mt-4
+    sm:w-[110px] sm:h-[50px] sm:ml-1 sm:mt-4
+    xl:w-[150px] xl:h-[50px] xl:ml-4 xl:mt-4;
+}
+.ReferenceImg2{
+    @apply w-[150px] h-[20px] ml-4 mt-4
+    sm:w-[90px] sm:ml-1 sm:mt-4
+    xl:w-[150px] xl:h-[20px] xl:ml-4 xl:mt-4;
+}
+.ReferenceImg3{
+    @apply w-[70px] h-[20px] ml-4 mt-4
+    sm:w-[50px] sm:ml-1 sm:mt-4
+    xl:w-[70px] xl:h-[20px] xl:ml-4 xl:mt-4;
+}
+.ReferenceImg4{
+    @apply w-[120px] h-[20px] ml-4 mt-4
+    sm:w-[90px] sm:ml-1 sm:mt-4
+    xl:w-[100px] xl:h-[20px] xl:ml-4 xl:mt-4;
+}

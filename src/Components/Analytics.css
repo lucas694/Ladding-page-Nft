@@ -1,0 +1,28 @@
+.AnalyticsContainer{
+    @apply flex flex-row mt-28 w-[80%] h-[25em] flex-wrap;
+}
+.AnalyticImg{
+    @apply w-[27em] h-[25em]
+}
+.AnalyticTittle{
+    @apply text-base font-bold text-[#74B4B3] mt-10 tracking-[1.6px]
+}
+
+.AnalyticText{
+    @apply text-5xl font-bold text-white mt-4 tracking-[1.8px]
+}
+
+.AnalyticContentLeft{
+    @apply flex flex-col items-center w-[50%] h-[100%]
+}
+
+.AnalyticContentRight{
+    @apply flex flex-col items-start w-[50%] h-[100%]
+}
+.AnalyticDescript{
+    @apply text-base font-semibold text-white mt-6
+}
+
+.AnalyticButton{
+    @apply bg-[#655ADF] text-white font-semibold text-sm tracking-[1.8px] rounded-full w-[20em] h-[3.8em] mt-10
+}
