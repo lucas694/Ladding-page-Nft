@@ -17,7 +17,7 @@ const Testimonial = () => {
       <div className={"TestimonialFirstSec"}>
         <h1 className={"TestimonialTittle"}>TESTIMONIAL</h1>
         <p className={"TestimonialText"}>
-          Read What Others <p>Have To Say</p>
+          Read What Others Have To Say
         </p>
       </div>
 

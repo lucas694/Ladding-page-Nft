@@ -22,8 +22,8 @@
 .TestimonialText{
     @apply text-6xl font-bold text-white tracking-[1.1px] mt-6 text-center w-full
     sm:text-5xl sm:font-bold sm:mt-6 sm:text-center
-    md:text-5xl md:font-bold md:mt-6 md:text-center
-    lg:text-5xl lg:font-bold lg:mt-6 lg:text-center
+    md:text-5xl md:font-bold md:mt-6 md:text-center md:w-[80%]
+    lg:text-5xl lg:font-bold lg:mt-6 lg:text-center lg:w-[50%]
     xl:text-5xl xl:font-bold xl:mt-6 xl:text-center
 }
 .TestimonialSecoundSec{

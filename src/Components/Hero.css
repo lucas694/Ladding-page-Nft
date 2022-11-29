@@ -22,31 +22,38 @@
     xl:flex xl:flex-col xl:items-start xl:w-[50%] xl:h-[100%]
 }
 .HeroTittle{
-    @apply text-6xl font-bold text-white mt-20 ml-4
+    @apply text-5xl font-bold text-white mt-20 ml-4 text-center
     sm:text-6xl sm:font-bold sm:text-white sm:mt-20 sm:ml-4
-    md:text-5xl md:font-bold md:text-white md:mt-20 md:ml-4
+    md:text-5xl md:font-bold md:text-white md:mt-20 md:ml-4 md:text-start
     lg:text-6xl lg:font-bold lg:text-white lg:mt-20 lg:ml-4
     xl:text-7xl xl:font-bold xl:text-white xl:mt-20 xl:ml-4
 }
 .HeroDescript{
-    @apply text-lg font-semibold text-white mt-10 ml-4
+    @apply text-lg font-semibold text-white mt-10 ml-4 text-center
     sm:text-lg sm:font-semibold sm:text-white sm:mt-10 sm:ml-4
-    md:text-sm md:font-semibold md:text-white md:mt-10 md:ml-4
+    md:text-sm md:font-semibold md:text-white md:mt-10 md:ml-4 md:text-start
     lg:text-base lg:font-semibold lg:text-white lg:mt-10 lg:ml-4
     xl:text-xl xl:font-normal xl:text-white xl:mt-10 xl:ml-4
 }
 
+.HeroButtonSection{
+    @apply flex flex-col  w-full h-[100%]
+    md:flex md:flex-row md:w-full
+    lg:flex lg:flex-row lg:w-full
+    xl:flex xl:flex-row xl:w-full
+}
+
 .HeroBuyButton{
-    @apply bg-[#655ADF] text-white font-semibold text-lg rounded-full w-[12em] h-[3em] mt-10 ml-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
-    sm:font-semibold sm:text-lg sm:rounded-full sm:w-[12em] sm:h-[3em] sm:mt-10 sm:ml-4
+    @apply bg-[#655ADF] text-white font-semibold text-lg rounded-full w-[full] h-[3em] mt-10 ml-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
+    sm:font-semibold sm:text-lg sm:rounded-full sm:h-[3em] sm:mt-10 sm:ml-4
     md:font-semibold md:text-lg md:rounded-full md:w-[7em] md:h-[3em] md:mt-10 md:ml-4
     lg:font-semibold lg:text-xl lg:rounded-full lg:w-[9em] lg:h-[3em] lg:mt-10 lg:ml-4
     xl:font-semibold xl:text-xl xl:w-[12em] xl:h-[3.5em] xl:mt-10 xl:ml-4
 }
 
 .HeroSellButton{
-    @apply bg-transparent border-4 border-[#74B4B3] text-white font-semibold text-lg rounded-full w-[12em] h-[3em] mt-10 ml-4 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-cyan-300 duration-300
-    sm:font-semibold sm:text-lg sm:rounded-full sm:w-[12em] sm:h-[3em] sm:mt-10 sm:ml-4
+    @apply bg-transparent border-4 border-[#74B4B3] text-white font-semibold text-lg rounded-full w-[full] h-[3em] mt-10 ml-4 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-cyan-300 duration-300
+    sm:font-semibold sm:text-lg sm:rounded-full sm:h-[3em] sm:mt-10 sm:ml-4
     md:font-semibold md:text-lg md:rounded-full md:w-[7em] md:h-[3em] md:mt-10 md:ml-4
     lg:font-semibold lg:text-xl lg:rounded-full lg:w-[9em] lg:h-[3em] lg:mt-10 lg:ml-4
     xl:bg-transparent xl:border-4 xl:border-[#74B4B3] xl:text-white xl:font-semibold xl:text-xl xl:rounded-full xl:w-[12em] xl:h-[3.5em] xl:mt-10 xl:ml-4

@@ -11,7 +11,7 @@ const Analytics = () => {
         <h1 className={"AnalyticTittle"}>ANALYTICS</h1>
         <div>
           <p className={"AnalyticText"}>
-            Built-In Analytics <p>To Track Your NFTs</p>
+            Built-In Analytics To Track Your NFTs
           </p>
 
           <p className={"AnalyticDescript"}>
@@ -19,9 +19,9 @@ const Analytics = () => {
             <p>pull valuable insights and monitor the value </p>
             <p>of your Krypto portfolio over time.</p>
           </p>
-
+        <div className={"AnalyticButtonSection"}>
           <button className={"AnalyticButton"}>VIEW OUR PRICING</button>
-
+        </div>
         </div>
       </div>
     </div>

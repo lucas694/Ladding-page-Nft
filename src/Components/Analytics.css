@@ -18,9 +18,9 @@
 }
 
 .AnalyticText{
-    @apply text-5xl font-bold text-white mt-4 tracking-[1.8px]
+    @apply text-5xl font-bold text-white mt-4 tracking-[1.8px] text-center
     sm:text-5xl sm:font-bold sm:text-white sm:mt-4 sm:tracking-[1.8px]
-    md:text-4xl md:font-bold md:text-white md:mt-4 md:tracking-[1.8px]
+    md:text-4xl md:font-bold md:text-white md:mt-4 md:tracking-[1.8px] md:text-start
     xl:text-5xl xl:font-bold xl:text-white xl:mt-4 xl:tracking-[1.8px]
 }
 
@@ -38,16 +38,18 @@
     xl:flex xl:flex-col xl:items-start xl:w-[50%] xl:h-[100%]
 }
 .AnalyticDescript{
-    @apply text-base font-semibold text-white mt-6
+    @apply text-base font-semibold text-white mt-6 text-center
     sm:text-base sm:font-semibold sm:text-white sm:mt-6
-    md:text-sm md:font-semibold md:text-white md:mt-6
+    md:text-sm md:font-semibold md:text-white md:mt-6 md:text-start
     xl:text-base xl:font-semibold xl:text-white xl:mt-6
 }
-
+.AnalyticButtonSection{
+    @apply w-full
+}
 .AnalyticButton{
-    @apply bg-[#655ADF] text-white font-semibold text-sm tracking-[1.8px] rounded-full w-[20em] h-[3.8em] mt-10
+    @apply bg-[#655ADF] text-white font-semibold text-sm tracking-[1.8px] rounded-full w-full h-[3.8em] mt-10
     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
-    sm:text-white sm:font-semibold sm:text-sm sm:tracking-[1.8px] sm:rounded-full sm:w-[20em] sm:h-[3.8em] sm:mt-10
+    sm:text-white sm:font-semibold sm:text-sm sm:tracking-[1.8px] sm:rounded-full sm:h-[3.8em] sm:mt-10
     md:text-white md:font-semibold md:text-sm md:tracking-[1.8px] md:rounded-full md:w-[17em] md:h-[3.5em] md:mt-10
     xl:text-white xl:font-semibold xl:text-sm xl:tracking-[1.8px] xl:rounded-full xl:w-[20em] xl:h-[3.8em] xl:mt-10
 }

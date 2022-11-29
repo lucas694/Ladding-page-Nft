@@ -7,13 +7,15 @@ const MobileSec = () => {
       <div className={"MobileSecContentLeft"}>
         <h1 className={"MobileSecTittle"}>GET OUR APP</h1>
           <p className={"MobileSecText"}>
-            Browse NFTs From <p>Your Smartphone</p>
+            Browse NFTs From Your Smartphone
           </p>
           <p className={"MobileSecDescript"}>
             Our Krypto App Is The Easiest Way to Keep
-            <p>Track Of Your Assets When You´re On The Go. </p>
+            Track Of Your Assets When You´re On The Go.
           </p>
-          <button className={"MobileSecButton"}>DOWNLOAD ON IOS</button>
+        <div className={"MobileSecButton"}>
+          <button className={"MobileButton"}>DOWNLOAD ON IOS</button>
+        </div>
         </div>
       <div className={"MobileSecContentRight"}>
         <img src={MobileSecImg} className={"MobileSecImg"} alt={"MobileSecImg"}/>
